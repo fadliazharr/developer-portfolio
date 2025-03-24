@@ -73,6 +73,13 @@ import webix from '../app/assets/svg/skills/webix.svg';
 import wolframalpha from '../app/assets/svg/skills/wolframalpha.svg';
 import wordpress from '../app/assets/svg/skills/wordpress.svg';
 
+import laravel from '../app/assets/svg/skills/laravel.svg';
+import node from '../app/assets/svg/skills/node.svg';
+import postman from '../app/assets/svg/skills/postman.svg';
+import ubuntu from '../app/assets/svg/skills/ubuntu.svg';
+import bash from '../app/assets/svg/skills/bash.svg';
+import joomla from '../app/assets/svg/skills/joomla.svg';
+
 import pandas from '../app/assets/svg/skills/pandas.svg';
 import scikitlearn from '../app/assets/svg/skills/scikit-learn.svg';
 import dotnet from '../app/assets/svg/skills/dotnet.svg';
@@ -251,6 +258,19 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+
+    case 'laravel':
+      return laravel;
+    case 'node':
+      return node;
+    case 'postman':
+      return postman;
+    case 'ubuntu':
+      return ubuntu;
+    case 'bash':
+      return bash;
+    case 'joomla':
+      return joomla;
     default:
       break;
   }

@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
 import { useEffect } from 'react';
 
 const GlowCard = ({ children , identifier}) => {
   useEffect(() => {
-    if (typeof document === "undefined") return; // Ensure it's client-side
+    if (typeof window === "undefined") return; // Ensure it's client-side
 
     const CONTAINER = document.querySelector(`.glow-container-${identifier}`);
     const CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
